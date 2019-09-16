@@ -41,6 +41,12 @@
 
 function showValues( obj ) {
   //Code Here
+  var string = "";
+  for(let key in obj){
+    string += obj[key]
+  
+  }
+  return string
 }
 
 
@@ -54,7 +60,15 @@ function showValues( obj ) {
 */
 
 //Code Here
+function greaterThan10(obj){
+  for(prop in obj){
+    if(obj[prop] > 10) {
+      obj[prop] = 0;
+    }
+  }
+  return obj;
 
+}
 
 
 ////////// PROBLEM 3 //////////

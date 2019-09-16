@@ -18,9 +18,7 @@ let product = {
 }
 
 // code here
-
-
-
+let productCopy = {... product}
 
 ////////// PROBLEM 2 //////////
 
@@ -29,7 +27,7 @@ let product = {
 let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // code here
-
+let colorsCopy = [...colors]
 
 
 
